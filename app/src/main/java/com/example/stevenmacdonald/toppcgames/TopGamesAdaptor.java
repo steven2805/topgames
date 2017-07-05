@@ -12,7 +12,8 @@ import java.util.ArrayList;
 
 public class TopGamesAdaptor extends ArrayAdapter<Games> {
 
-    public TopGamesAdaptor(Context context, ArrayList<Games> games) {
+    public TopGamesAdaptor(Context context, ArrayList<Games> games)
+    {
         super(context, 0, games);
     }
 
