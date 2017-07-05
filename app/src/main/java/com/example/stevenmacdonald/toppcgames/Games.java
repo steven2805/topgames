@@ -2,7 +2,7 @@ package com.example.stevenmacdonald.toppcgames;
 
 public class Games {
 
-    private int rnak;
+    private int rank;
     private String title;
     private String releasedate;
 
@@ -13,15 +13,15 @@ public class Games {
         this.releasedate = releasedate;
     }
 
-    public int getRnak() {
-        return rnak;
+    public Integer getRank() {
+        return rank;
     }
 
     public String getTitle() {
         return title;
     }
 
-    public String getReleasedate() {
+    public String getDate() {
         return releasedate;
     }
 }
